@@ -16,7 +16,7 @@ def generate(filename, version):
         'checksum': md5sum(filename),
         'changelog': 'Auto Released By PeiFeng.Li',
         'targetAbi': '10.9.0.0',
-        'sourceUrl': 'https://github.com/li-peifeng/jellyfin-plugin-metatube/releases/download/'
+        'sourceUrl': 'https://github.com/li-peifeng/iMetatube/releases/download/'
                      f'v{version}/Jellyfin.MetaTube@v{version}.zip',
         'timestamp': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
         'version': version
@@ -29,7 +29,7 @@ def main():
         .removeprefix('v') \
         .removesuffix('.zip')
 
-    with urlopen('https://raw.githubusercontent.com/li-peifeng/jellyfin-plugin-metatube/dist/manifest.json') as f:
+    with urlopen('https://raw.githubusercontent.com/li-peifeng/iMetatube/manifest/manifest.json') as f:
         manifest = json.load(f)
 
     manifest[0]['versions'].insert(0, generate(filename, version))

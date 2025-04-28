@@ -10,10 +10,10 @@
         <Version>$([System.DateTime]::UtcNow.ToString(yyyy.Mdd.Hmm.0))</Version>
         <Copyright>Copyright © 2023 MetaTube</Copyright>
         <RepositoryType>Git</RepositoryType>
-        <RepositoryUrl>https://github.com/li-peifeng/jellyfin-plugin-metatube.git</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/li-peifeng/jellyfin-plugin-metatube</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/li-peifeng/jellyfin-plugin-metatube/blob/main/LICENSE</PackageLicenseUrl>
-        <PackageIcon>https://cdn.jsdelivr.net/gh/li-peifeng/jellyfin-plugin-metatube/Jellyfin.Plugin.MetaTube/thumb.png</PackageIcon>
+        <RepositoryUrl>https://github.com/li-peifeng/iMetatube.git</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/li-peifeng/iMetatube</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/li-peifeng/iMetatube/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageIcon>https://cdn.jsdelivr.net/gh/li-peifeng/iMetatube/Jellyfin.Plugin.MetaTube/thumb.png</PackageIcon>
         <PackageId>MetaTube</PackageId>
         <Company>MetaTube</Company>
         <Product>MetaTube</Product>
