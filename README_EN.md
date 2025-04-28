@@ -1,8 +1,8 @@
 <p align="center"><a href="https://peifeng.li"><img width="184px" alt="logo" src="https://cdn.jsdelivr.net/gh/li-peifeng/static/logo.png"/></a></p>
 <h1 align="center">Jellyfin Plugin MetaTube 中文版</h1>
-<p align="center"><b>English | <a href="README.md">简体中文</a></b></p>
-<p align="center"><b><a href="README_EN.md">English</a> | 简体中文</b></p>
+<p align="center"><b><a href="README_EN.md">English</a> | <a href="README.md">简体中文</a></b></p>
 
+## Installation Guide
 - Go to Jellyfin Console > Plugin Directory/Repository > Settings, click Add
 - Enter the repository name: MetaTube
 - Enter the repository URL:

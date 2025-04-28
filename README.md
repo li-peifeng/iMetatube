@@ -1,8 +1,8 @@
 <p align="center"><a href="https://peifeng.li"><img width="184px" alt="logo" src="https://cdn.jsdelivr.net/gh/li-peifeng/static/logo.png"/></a></p>
 <h1 align="center">Jellyfin Plugin MetaTube 中文版</h1>
-<p align="center"><b>English | <a href="README.md">简体中文</a></b></p>
-<p align="center"><b><a href="README_EN.md">English</a> | 简体中文</b></p>
+<p align="center"><b><a href="README_EN.md">English</a> | <a href="README.md">简体中文</a></b></p>
 
+## 安装指南
 - 进入 Jellyfin 控制台 > 插件目录/存储库 > 设置，点击添加
 - 输入存储库名称：MetaTube
 - 输入存储库 URL：
