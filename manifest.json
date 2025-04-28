@@ -1,0 +1,21 @@
+[
+  {
+    "guid": "01cc53ec-c415-4108-bbd4-a684a9801a32",
+    "name": "MetaTube",
+    "description": "Jellyfin/Emby \u4e2d\u6587\u7248 MetaTube \u5143\u6570\u636e\u522e\u524a\u63d2\u4ef6",
+    "overview": "Jellyfin/Emby \u4e2d\u6587\u7248 MetaTube \u5143\u6570\u636e\u522e\u524a\u63d2\u4ef6",
+    "owner": "MetaTube",
+    "category": "Metadata",
+    "imageUrl": "https://cdn.jsdelivr.net/gh/li-peifeng/jellyfin-plugin-metatube/Jellyfin.Plugin.MetaTube/thumb.png",
+    "versions": [
+      {
+        "checksum": "5a9dc9a71b103a69997506b5ec34b881",
+        "changelog": "Auto Released By PeiFeng.Li",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/li-peifeng/iMetatube/releases/download/v2025.428.1901.0/Jellyfin.MetaTube@v2025.428.1901.0.zip",
+        "timestamp": "2025-04-28T19:01:31Z",
+        "version": "2025.428.1901.0"
+      }
+    ]
+  }
+]
