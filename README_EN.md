@@ -3,12 +3,12 @@
 <p align="center"><b>English | <a href="README.md">简体中文</a></b></p>
 <p align="center"><b><a href="README_EN.md">English</a> | 简体中文</b></p>
 
-- 进入 Jellyfin 控制台 > 插件目录/存储库 > 设置，点击添加
-- 输入存储库名称：MetaTube
-- 输入存储库 URL：
+- Go to Jellyfin Console > Plugin Directory/Repository > Settings, click Add
+- Enter the repository name: MetaTube
+- Enter the repository URL:
   - https://cdn.jsdelivr.net/gh/li-peifeng/iMetatube@manifest/manifest.json
-- 在插件目录下找到 MetaTube，点击安装
-- 重启 Jellyfin
+- Find MetaTube in the plugin directory and click Install
+- Restart Jellyfin
 
 <p align="center">
 <img alt="Plugin Banner" src="https://cdn.jsdelivr.net/gh/li-peifeng/iMetatube/Jellyfin.Plugin.MetaTube/thumb.png"/>
@@ -35,51 +35,41 @@
 </a>
 </p>
 
-## 关于
+## About
 
-为 Jellyfin/Emby 开发的超级好用的元数据插件。
+MetaTube Plugin for Jellyfin/Emby.
 
-## 特性
+## Features
 
-- 完整数据：包括标题、**简介**、演员、标签、**评分**等内容。
-- 完整搜索：支持通过众多的刮削源搜索影片和演员信息。
-- 预告功能：无需下载完整预告视频即可**在线观看预告片**。
-- 计划任务：自动整理影片标签以及在后台自动更新插件。
-- 人脸识别：内置的人脸识别以人脸为中心裁剪海报图像。
-- 自动翻译：支持将特定的元数据内容翻译成需要的语言。
+- Full Metadata: Including title, overview, genres, director, actors, and studio.
+- Full Search: Support searching for movies and actors across various providers.
+- Trailer Video: Support trailers without downloading the full trailer videos.
+- Scheduled Task: Automatically organize metadata genres and update plugin.
+- Face Detection: Cut primary image with face centered by face detection engine.
+- Auto Translation: Support translate certain metadata to preferred language.
 
-## 平台
+## Platforms
 
 [![Jellyfin](https://img.shields.io/static/v1?color=%2300A4DC&style=for-the-badge&label=Jellyfin&logo=jellyfin&message=10.9.x)](https://jellyfin.org/)
 [![Emby](https://img.shields.io/static/v1?color=%2352B54B&style=for-the-badge&label=Emby&logo=emby&message=4.8.x)](https://emby.media/)
 
-_注意：本项目仅支持 Jellyfin/Emby 稳定版。_
+_NOTE: This project will only support stable versions._
 
-## 文档
+## Documentation
 
-- [插件安装](https://metatube-community.github.io/wiki/plugin-installation/)
-- [后端部署](https://metatube-community.github.io/wiki/server-deployment/)
-- [命名规范](https://metatube-community.github.io/wiki/naming-rules/)
-- [自动翻译](https://metatube-community.github.io/wiki/auto-translation/)
-- [源码编译](https://metatube-community.github.io/wiki/build-from-source/)
-- [数据来源](https://metatube-community.github.io/wiki/metadata-providers/)
+- [Plugin installation](https://metatube-community.github.io/wiki/plugin-installation/)
+- [Server deployment](https://metatube-community.github.io/wiki/server-deployment/)
+- [File naming rules](https://metatube-community.github.io/wiki/naming-rules/)
+- [Auto translation](https://metatube-community.github.io/wiki/auto-translation/)
+- [Build from source](https://metatube-community.github.io/wiki/build-from-source/)
+- [Metadata providers](https://metatube-community.github.io/wiki/metadata-providers/)
 
-完整的文档以及使用方法，请参阅 [Wiki](https://metatube-community.github.io/wiki/)。
+Full documentation and examples can be found at [Wiki](https://metatube-community.github.io/wiki/).
 
-## 社区
+## Community
 
-有任何问题欢迎来 [Discussions](https://github.com/metatube-community/jellyfin-plugin-metatube/discussions) 提问讨论。
+Welcome and feel free to ask any questions at [Discussions](https://github.com/metatube-community/jellyfin-plugin-metatube/discussions).
 
-## 许可
+## Licence
 
-本插件项目在 [MIT](https://github.com/metatube-community/jellyfin-plugin-metatube/blob/main/LICENSE) 许可授权下发行。此外，如果使用本项目表明还额外接受以下条款：
-
-- 本插件仅供学习以及技术交流使用
-- 请勿在公共社交平台上宣传此项目
-- 使用本软件时请遵守当地法律法规
-- 法律及使用后果由使用者自己承担
-- 禁止将本软件用于任何的商业用途
-
-## 星星
-
-[![Star History Chart](https://api.star-history.com/svg?repos=metatube-community/jellyfin-plugin-metatube&type=Date)](https://star-history.com/#metatube-community/jellyfin-plugin-metatube&Date)
+This plugin is released under the [MIT](https://github.com/metatube-community/jellyfin-plugin-metatube/blob/main/LICENSE) License.
