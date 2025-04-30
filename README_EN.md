@@ -6,7 +6,8 @@
 - Go to Jellyfin Console > Plugin Directory/Repository > Settings, click Add
 - Enter the repository name: MetaTube
 - Enter the repository URL:
-  - https://cdn.jsdelivr.net/gh/li-peifeng/iMetatube@manifest/manifest.json
+  - Github Link：https://raw.githubusercontent.com/li-peifeng/iMetatube/manifest/manifest.json
+  - CDN Link： https://cdn.jsdelivr.net/gh/li-peifeng/iMetatube@manifest/manifest.json
 - Find MetaTube in the plugin directory and click Install
 - Restart Jellyfin
 
