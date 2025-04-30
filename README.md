@@ -6,7 +6,8 @@
 - 进入 Jellyfin 控制台 > 插件目录/存储库 > 设置，点击添加
 - 输入存储库名称：MetaTube
 - 输入存储库 URL：
-  - https://cdn.jsdelivr.net/gh/li-peifeng/iMetatube@manifest/manifest.json
+  - Github 直链 https://raw.githubusercontent.com/li-peifeng/iMetatube/manifest/manifest.json
+  - CDN 链接 https://cdn.jsdelivr.net/gh/li-peifeng/iMetatube@manifest/manifest.json
 - 在插件目录下找到 MetaTube，点击安装
 - 重启 Jellyfin
 
